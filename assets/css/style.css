@@ -1,0 +1,105 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+  width: 490px;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.conteiner {
+  background-image: url(../img/sfondo.png);
+}
+/* HEADER */
+header {
+  background: rgb(0, 109, 136);
+  background: linear-gradient(
+    4deg,
+    rgba(0, 109, 136, 1) 35%,
+    rgba(13, 170, 204, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 2px 6px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 2px 6px rgba(0, 0, 0, 0);
+  margin: 25px;
+}
+i {
+  color: white;
+}
+header p {
+  color: white;
+}
+header ul {
+  list-style-type: none;
+  text-align: center;
+}
+header ul li a {
+  color: white;
+}
+nav {
+}
+/* MAIN */
+main {
+  background-color: white;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 2px 6px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 2px 6px rgba(0, 0, 0, 0);
+  margin: 25px;
+  padding: 5px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main article p {
+  margin: 10px;
+}
+
+.news {
+  background-color: lightgrey;
+  margin: 10px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+.sumbit {
+  color: cornflowerblue;
+}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+.cor {
+  background-color: lightgrey;
+  margin: 10px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+p i {
+  color: black;
+}
+.date {
+  text-align: right;
+}
+/* FOOTER */
+footer {
+  background-color: white;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 2px 6px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 2px 6px rgba(0, 0, 0, 0);
+  margin: 25px;
+  text-align: center;
+}
